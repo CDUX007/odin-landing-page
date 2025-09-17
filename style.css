@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 html, body {
@@ -52,8 +52,13 @@ a {
     color: #f9faf8;
 }
 
-.hero, .info, .quote, .call {
-    /* flex: 1 0 auto; */
+.hero {
+    padding: 50px 200px;
+    justify-content: space-between;
+}
+
+.hero-left, .hero-right {
+    flex: 1 1 0;
 }
 
 .hero-main {
