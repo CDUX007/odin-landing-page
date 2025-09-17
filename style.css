@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
+    /* justify-content: end; */
     font-family: Roboto, sans-serif;
     margin: 0;
 }
@@ -12,6 +13,7 @@ body {
 .header, .hero, .info, .quote, .call, .footer {
     display: flex;
     padding: 0 200px;
+    align-items: center;
 }
 
 .header, .hero, .footer {
@@ -20,6 +22,21 @@ body {
 
 .header {
     justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    color: #e5e7eb;
+    padding: 0;
+}
+
+li {
+    padding-left: 20px;
+}
+
+.hero, .info, .quote, .call {
+    /* flex: 1 0 auto; */
 }
 
 .hero-main {
@@ -54,4 +71,5 @@ button, .call {
 
 .footer {
     color: #e5e7eb;
+    flex: 0;
 }
