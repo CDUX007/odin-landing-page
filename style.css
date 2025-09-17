@@ -2,10 +2,14 @@
     border: 1px solid red;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    /* justify-content: end; */
+    justify-content: space-between;
     font-family: Roboto, sans-serif;
     margin: 0;
 }
@@ -14,6 +18,14 @@ body {
     display: flex;
     padding: 0 200px;
     align-items: center;
+}
+
+.header, .footer {
+    flex: 0;
+}
+
+.hero, .info, .quote, .call {
+    flex: 1;
 }
 
 .header, .hero, .footer {
