@@ -1,0 +1,17 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.hero,
+.info,
+.quote,
+.call,
+.footer {
+    display: flex;
+}
