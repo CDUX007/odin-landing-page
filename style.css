@@ -14,7 +14,7 @@ body {
     margin: 0;
 }
 
-.header, .hero, .call, .footer {
+.header, .hero, .call {
     display: flex;
     padding: 0 200px;
     align-items: center;
@@ -209,4 +209,6 @@ img.imgs {
 .footer {
     color: #e5e7eb;
     flex: 0;
+    text-align: center;
+    padding: 45px;
 }
