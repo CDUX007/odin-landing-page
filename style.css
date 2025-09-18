@@ -24,7 +24,7 @@ body {
     flex: 0;
 }
 
-.hero, .info, .quote, .call {
+.hero, .info, .quote, .call, .call-box{
     flex: 1;
 }
 
@@ -114,16 +114,33 @@ p {
     padding-top: 15px;
 }
 
-button, .call {
+button, .call-box {
     background: #3882f6;
     color: #f9faf8;
 }
 
+.call-box {
+    margin: 100px 0;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-header {
+    font-size: 22px;
+    font-weight: 900;
+}
+
 button {
-    padding: 10px 20px;
+    padding: 10px 25px;
     font-weight: 700;
     border-radius: 10px;
     border: 0;
+}
+
+.join-now {
+    border: 3px solid #f9faf8;
 }
 
 .info {
